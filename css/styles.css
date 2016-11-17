@@ -1,0 +1,162 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+body {
+  background-color: #e6e6e6;
+  font-size: 100%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+div, textarea, input {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 510px;
+  min-width: 324px;
+  margin: 50px auto 0px;
+  background-color: #fff;
+  border: 1px solid #cfcfcf;
+  border-bottom: 3px solid #ccc;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  font-weight: 100;
+  font-size: 2.8125em;
+  display: inline;
+  position: absolute;
+  margin-top: -160px;
+  margin-left: 40px;
+  color: white;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.25em;
+  margin: 1em 0 0.4em 0;
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 40px;
+  color: white;
+}
+
+.btn {
+  font-size: 1.0625em;
+  display: inline-block;
+  padding: 0.74em 1.5em;
+  margin: 1.5em 0 0;
+  color: #fff;
+  border-width: 0 0 0 0;
+  border-bottom: 5px solid;
+  text-transform: uppercase;
+  background-color: #7D47D0;
+  border-bottom-color: #2B0A7B;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.btn:hover {
+  background-color: #2B0A7B;
+  border-bottom-color: #7D47D0;
+}
+.btn.btn-submit {
+  /*background-color: #2B0A7B;
+  border-bottom-color: #7D47D0;*/
+}
+.btn.btn-submit:hover {
+  background-color: #2B0A7B;
+  border-bottom-color: #7D47D0;
+}
+
+form {
+  max-width: 100%;
+  display: block;
+  padding: 40px;
+}
+
+form label {
+  display: block;
+  margin: 0 0 0.5em 0;
+  color: #4f6fad;
+  font-size: 1em;
+}
+form input {
+  margin: 0 0 0.5em 0;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  color: #555;
+  font-size: 1em;
+}
+form textarea {
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  width: 100%;
+  color: #555;
+}
+small {
+  color: #7D47D0;
+  margin: 0 0 0 0.5em;
+}
+@media only screen and (max-width: 480px) {
+  .pull-right {
+    float: none;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  label {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    clear: both;
+  }
+
+  input.btn {
+    margin: 1.5em 0 0.5em;
+  }
+}
+
+.header{
+  max-width: 100%;
+  background-color: red;
+  overflow:hidden;
+}
+#bottom {
+  border: none;
+  background-color: #DF4CF2;
+  height: .5px;
+
+}
+#contact {
+  width: 300px;
+  float: left;
+  position: absolute;
+  margin-top: -90px;
+  margin-left: 40px;
+  opacity: .8;
+}
+
+#first-name {
+  float: left;
+}
+
+#last-name {
+  float: right;
+}
+
+#email {
+  margin-top: 70px;
+}
+
+ img {
+   background-size: cover;
+   display: block;
+   height: 180px;
+   width: 100%;
+ }
